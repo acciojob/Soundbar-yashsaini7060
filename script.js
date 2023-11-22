@@ -6,7 +6,7 @@ section.addEventListener('click', function(e) {
         var soundName = `./sounds/${e.target.innerHTML}.mp3`;		
 		const audio = new Audio(soundName);
 		audio.play();
-		alert(soundName)
+		// alert(soundName)
 		
     }
 	// alert(e.target.className)
